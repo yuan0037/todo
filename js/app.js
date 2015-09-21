@@ -21,7 +21,6 @@
         } else {
             this.items = preDefinedItems;
         }
-        console.log(this.items);
 
         this.addItem = function () {
             this.items.push(this.item);
