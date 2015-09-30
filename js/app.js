@@ -25,6 +25,7 @@
         this.addItem = function () {
             this.items.push(this.item);
             this.item = {};
+            localStorage.setItem("yuan0037-items", JSON.stringify(this.items));
         };
 
         this.removeItem = function (index) {
